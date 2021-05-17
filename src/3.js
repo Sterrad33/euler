@@ -9,8 +9,8 @@ const factorsArr = [];
 const remNum = mystNum;
 
 const isPrime = num => {
-  for(let i = 2; i < num; i++)
-    if(num % i === 0) return false;
+  for(let z = 2; z < num; z += 1)
+    if(num % z === 0) return false;
   return num > 1;
 }
 
