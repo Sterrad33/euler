@@ -4,7 +4,7 @@
 let sumOfSqr = 0;
 let sumofNums = 0;
 
-for(let i = 0; i <= 100; i += 1) {
+for (let i = 0; i <= 100; i += 1) {
   sumOfSqr += Math.pow(i, 2);
   sumofNums += i;
 }

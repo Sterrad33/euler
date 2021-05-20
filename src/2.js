@@ -7,6 +7,7 @@ const fibs = [1, 2];
 
 let current = 0;
 let i = 0;
+let sum = 0;
 
 while (current < fourMilly) {
   current = fibs[i] + fibs[i + 1];
@@ -14,6 +15,8 @@ while (current < fourMilly) {
   i += 1;
 }
 
-const sum = fibs.reduce((a, b) => a + b, 0);
+for (let i = 0; i < fibs.length; i += 1) {
+  if (fibs[i] % 2 === 0) sum += fibs[i];
+}
 
 console.log(sum);
