@@ -16,7 +16,7 @@ const isPrime = (num) => {
 for (let i = 0; i < Math.ceil(Math.sqrt(mystNum)) + 1; i += 1) {
   if (mystNum % i === 0) {
     factorsArr.push(i);
-    console.log('Pushed ', i);
+    // console.log('Pushed ', i);
   }
 }
 
